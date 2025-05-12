@@ -2,7 +2,7 @@
 let nomeHero
 let totalXP
 let nivelAtual
-//necessita prompt-sync para inerarir como usuário
+//necessita prompt-sync para interagir com o usuário
 const prompt = require('prompt-sync')();
 //Incicialização das Variáveis
 nomeHero=""
@@ -47,10 +47,10 @@ switch (true){
         nivelAtual="Radiante"
         break
 }
-// Vamos aguardar 5 segundos para criar um suspense
+// Descobrindo o nível do herói. Vamos aguardar 10 segundos para criar um suspense
   setTimeout(() => {
   console.log('Calculando seu nível...Aguarde...');
-}, 5000)
+}, 4000)
  setTimeout(() => {
   console.log('Aguarde só mais um instante...');
 }, 8000)
