@@ -47,11 +47,8 @@ switch (true){
         nivelAtual="Radiante"
         break
 }
-<<<<<<< HEAD
 // Descobrindo o nível do herói. Vamos aguardar 10 segundos para criar um suspense
-=======
 // Vamos aguardar 10 segundos para criar um suspense
->>>>>>> f07f92ca5e663b910aa5458b7c727c35b83bc8f3
   setTimeout(() => {
   console.log('Calculando seu nível...Aguarde...');
 }, 4000)
