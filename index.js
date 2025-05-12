@@ -2,7 +2,7 @@
 let nomeHero
 let totalXP
 let nivelAtual
-//necessita prompt-sync para inerarir como usuário
+//necessita prompt-sync para interagir com o usuário
 const prompt = require('prompt-sync')();
 //Incicialização das Variáveis
 nomeHero=""
